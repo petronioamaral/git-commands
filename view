@@ -1,0 +1,13 @@
+git init
+#Na pasta
+
+git status
+git add . #setar pasta atual
+git remote add <SOMENAME> <URL>
+git remote -v # onde está apontando
+git commit -m "Descricao" #fazer commit com descrição
+git push <NAMESERVER> master #enviar realmente
+
+#enviando novos
+git commit -am "DESCRICAO"
+git push <SOMENAME> master
