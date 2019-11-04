@@ -8,6 +8,19 @@ git remote -v # onde está apontando
 git commit -m "Descricao" #fazer commit com descrição
 git push <NAMESERVER> master #enviar realmente
 
+git blame -w -L 1,12 nome-do-arquivo #ver quem alterou arquivos
+
+git branch -a #listar branchs (tipo nome de usuario)
+git branch #listar branchs (tipo nome de usuario)
+git push origin -d minha-branch #apagar branch remota (tipo nome de usuario)
+
+git branch -m nome-atual novo-nome # renomear branch 01
+git push origin :nome-atual novo-nome # fazer o push com o novo nome branch 02
+git push origin -u novo-nome # finalizar a alteração do nome branch 03
+
+git remote rename nome-atual novo-nome #renomear repositorio
+git remote rm origin #remove repositorio remoto
+
 #enviando novos
 git commit -am "DESCRICAO"
 git push <SOMENAME> master
