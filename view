@@ -26,3 +26,19 @@ git add -A
 git commit -m "DESCRICAO"
 git push <SOMENAME> master
 
+************************************************************************
+
+git checkout -b funcionalidade_x # criar nova branch
+git checkout master # voltar para master
+git branch -d funcionalidade_x # remover branch
+git branch #listar branchs
+
+Fazer o commit sempre antes de começar a usar os arquivos.
+
+git checkout -b funcionalidade_x # criar nova branch
+git add .
+git commit -m "Descriçao"
+git checkout master #voltar para master
+git branch #listar branchs
+git merge funcionalidade_x  #merge
+git branch -d funcionalidade_x # remover branch
