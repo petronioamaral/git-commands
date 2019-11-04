@@ -22,5 +22,7 @@ git remote rename nome-atual novo-nome #renomear repositorio
 git remote rm origin #remove repositorio remoto
 
 #enviando novos
-git commit -am "DESCRICAO"
+git add -A
+git commit -m "DESCRICAO"
 git push <SOMENAME> master
+
