@@ -1,0 +1,45 @@
+```
+~git init
+#Na pasta
+
+~git status
+~git add . #setar pasta atual
+~git remote add <SOMENAME> <URL>
+~git remote -v # onde está apontando
+~git commit -m "Descricao" #fazer commit com descrição
+~git push <NAMESERVER> master #enviar realmente
+
+~git blame -w -L 1,12 nome-do-arquivo #ver quem alterou arquivos
+
+~git branch -a #listar branchs (tipo nome de usuario)
+~git branch #listar branchs (tipo nome de usuario)
+~git push origin -d minha-branch #apagar branch remota (tipo nome de usuario)
+
+~git branch -m nome-atual novo-nome # renomear branch 01
+~git push origin :nome-atual novo-nome # fazer o push com o novo nome branch 02
+~git push origin -u novo-nome # finalizar a alteração do nome branch 03
+
+~git remote rename nome-atual novo-nome #renomear repositorio
+~git remote rm origin #remove repositorio remoto
+
+#enviando novos
+~git add -A
+~git commit -m "DESCRICAO"
+~git push <SOMENAME> master
+
+************************************************************************
+
+~git checkout -b funcionalidade_x # criar nova branch
+~git checkout master # voltar para master
+~git branch -d funcionalidade_x # remover branch
+~git branch #listar branchs
+
+Fazer o commit sempre antes de começar a usar os arquivos.
+
+~git checkout -b funcionalidade_x # criar nova branch
+~git add .
+~git commit -m "Descriçao"
+~git checkout master #voltar para master
+~git branch #listar branchs
+~git merge funcionalidade_x  #merge
+~git branch -d funcionalidade_x # remover branch
